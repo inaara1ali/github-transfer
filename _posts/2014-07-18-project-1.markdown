@@ -1,0 +1,34 @@
+---
+title: Predictive Power of COVID-19 in the Presidential Election
+subtitle: <b><a target="_blank" rel="noopener noreferrer" href="https://seeunkim.shinyapps.io/finalshiny/">Shiny
+  web application</a></b>
+layout: default
+modal-id: "1"
+date: 2020-11-18
+img: usa-4964392_1920.jpg
+thumbnail: usa-4964392_1920.jpg
+alt: image-alt
+project-date: Nov. - Dec. 2020
+client: <a target="_blank" rel="noopener noreferrer" href="https://seeunkim.shinyapps.io/finalshiny/">See
+  project (Shiny web app)</a>
+category:
+- 'Inaara Ali (Me), Se Eun Kim, Neisa Yin, Bo Lee, Dylan Douglas-Brown '
+description: |-
+  <h4>About</h4> <div style="text-align:left"><p>This project examines the relationship between COVID-19 case rates and the United States’ election outcomes from 2016 and 2020 at the state level. The goal was to discover unique insights among political group victory (Democrat and Republican) and COVID-19 cases.</div>
+  </p><h4>Data sources</h4> <div style="text-align:left"><p>Given the CDC's important role during the COVID-19 pandemic, we were interested in using CDC's COVID-19 data tracker for our project. We used the <a target="_blank" rel="noopener noreferrer" href="https://covid.cdc.gov/covid-data-tracker/index.html#cases_casesper100k">"Data Table for Case Rate by State/Territory" dataset</a>, selecting specifically for
+   the variables of states, case rates per 100 thousand people, and total number of cases as of November 11th 2020. Since 2020 was also the year of the general election, we wanted to explore the relationship between voting patterns and COVID-19 prevalence in states. Therefore, we created an <a target="_blank" rel="noopener noreferrer" href=https://docs.google.com/spreadsheets/d/10unO88NvAylUIU5g1I_E4sra_iOGLXfcKpYiGph97V8/edit?usp=sharing >additional dataset</a> using data from the <a target="_blank" rel="noopener noreferrer" href=https://www.nytimes.com/interactive/2020/11/03/us/elections/results-president.html?action=click&pgtype=Article&state=default&module=styln-elections-2020&region=TOP_BANNER&context=election_recirc>New York Times</a> dated on November 11th that detailed voting percentages across party lines for the 2020 presidential election. We also used an <a target="_blank" rel="noopener noreferrer" href=https://www.fec.gov/introduction-campaign-finance/election-and-voting-information/federal-elections-2016/>external dataset</a> that contained voting percentages for Democrats and Republicans in the 2016 presidential election.</div>
+  </p><h4>Analysis</h4> <div style="text-align:left"><p>After some cleaning and joining of datasets, we created a map of the US that shows how states voted in 2016 in terms of percentage by Republican or Democratic Party as well as their COVID-19 case rates. Darker circles indicate higher percentage of voting in the respective party, and larger circles indicate higher COVID-19 case rates. It appears that states with larger case rates, specifically those in the Midwest that range from mid to large circles, tend to be darker red, indicating a higher republican voter percentage in 2016. States on the northeast, however, have bluer and smaller circles. Therefore, we believe that these voting patterns from 2016 had an impact on the prevalence of current COVID-19 cases in the United States.</p>
+  <p>To explore this further, we created scatterplots with case rates and party vote percentages in 2016 and 2020. In both sets of graphs, there seems to be a positive correlation between COVID case rate and Republican vote percentage. In simpler terms, as Republican vote percentages increase, so do COVID case rates. On the other hand, as Democratic vote percentages increase, COVID case rates decrease. This led to our curiosity on whether higher COVID case rates would drive states to vote blue in the 2020 election. We hypothesized that states in worse conditions in terms of COVID-19 would increase the share of Democratic votes. Here are the 2016 graphs, and in this option we see the 2020 graphs.
+  </p>
+  <p>We subtracted the 2016 voter percentages from the 2020 voter percentages in each state to get the change in voting behavior within the 4 years. One graph has the change in the Democratic vote, and the other has the change in Republican votes. Positive bars indicate that people voted more in favor of that party in 2020. Looking at the legend, warm colors indicate higher COVID case rates, while cool colors indicate lower COVID case rates. Interestingly, we found that COVID case prevalence may have led to further party polarization. States with yellow, orange, or red colors had positive bars in each of the graphs, showing that people in each state voted more blue or more red. The final count on the election, according to the news outlets, revealed a major increase in votes in general. We believe that COVID could be one of the many factors that motivated voter turnout in this year’s election.</p></div>
+  <h4>Conclusion</h4> <div style="text-align:left"><p>In conclusion, we initially thought that states with higher COVID-19 case prevalence would vote more blue, but our data shows that COVID-19 case prevalence may have caused the votes to become more polarized in this year’s election. Additionally, states that lean more Republican have higher COVID-19 case rates, while states that lean more Democratic have lower COVID-19 case rates. It would be interesting to revisit this idea once the COVID-19 pandemic is over in case there are changes in trends, since we are currently experiencing a much harsher Winter wave of cases across the entire country. </div>
+  </p>
+  <h4>Roles & Attributions</h4> <div style="text-align:left"><ul><li><b>Inaara Ali (me):</b> Exploratory data analysis, data cleaning, and map visualizations; project idea</li>
+  <li>Se Eun Kim: Dataset joining, data cleaning, and Shiny app</li>
+  <li>Neisa Yin: data visualizations</li>
+  <li>Bo Lee: data visualizations and project script</li>
+  <li>Dylan Douglas-Brown: Shiny app</li>
+  </ul>
+  </div>
+
+---

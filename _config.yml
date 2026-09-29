@@ -1,0 +1,31 @@
+url: https://inaaraali.github.io
+baseurl: 
+
+# Site settings
+title: Inaara Ali
+email: inaara.a.ali@gmail.com
+description: "Hello world! My name is Inaara Ali, and I am a junior at Emory University majoring in Data Science (QSS), with a concentration in Anthropology and a double major in International Studies. A life-long creative writer, I have a passion for storytelling and have applied my creativity towards the captivating world of data science. Enthusiastic in sharing stories about data, I extract and communicate meaningful insight from data to bring positive impact. Currently, I am seeking a data science intern position for summer of 2021."
+
+
+# Team names, titles and social links
+
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/inaaraali/
+  - title: github
+    url: https://gist.github.com/InaaraAli/starred 
+  
+
+    
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 201 Dowman Dr
+  - line: Atlanta, GA 30322 
+
+# Build settings
+markdown: kramdown
+permalink: pretty

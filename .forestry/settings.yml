@@ -1,0 +1,40 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- type: jekyll-posts
+  label: Jekyll Posts
+  create: all
+- type: jekyll-pages
+  label: Jekyll Pages
+  create: all
+- type: heading
+  label: Heading
+- type: document
+  path: InaaraAli/inaaraali.github.io
+  label: Document
+- type: directory
+  path: ''
+  label: Directory
+  create: all
+  match: "**/*"
+- type: document
+  path: InaaraAli/inaaraali.github.io/resume.md
+  label: Resume
+upload_dir: uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: 
+file_template: ":filename:"
+build:
+  preview_env:
+  - JEKYLL_ENV=staging
+  preview_output_directory: _site
+  install_dependencies_command: bundle install --path vendor/bundle
+  preview_docker_image: forestryio/ruby:2.6
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
+    -d _site

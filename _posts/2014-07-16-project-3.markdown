@@ -1,0 +1,27 @@
+---
+title: Descorn
+subtitle: '<b><a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/presentation/d/1E8TpzwORK9eYk77Vx2On0DY7LHoriMYMDQtAU1tyNiA/edit?usp=sharing">Emory
+  HackATL business competition entry</a></b>                                '
+layout: default
+modal-id: "3"
+date: 2014-07-16
+img: vegetable-2489368_1920.png
+thumbnail: vegetable-2489368_1920.png
+alt: image-alt
+project-date: Oct. 2019
+client: '<a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/presentation/d/1E8TpzwORK9eYk77Vx2On0DY7LHoriMYMDQtAU1tyNiA/edit?usp=sharing">Emory
+  HackATL business competition entry</a>                                '
+category:
+- Inaara Ali (Me), Vedika Jhunjhunwala, Tanvi Talwar, Richard O
+description: |-
+  <h4>About</h4> <div style="text-align:left"><p>I pitched a sustainable start-up idea named <i>Descorn</i> in a team for the <i>Emory HackATL</i> business competition.<i>Descorn</i> combines "design" with "corn." Our mission statement was to create a line of sustainable clothing out of a fine fabric derived from corn to tackle the issues of toxic waste generation from the fashion industry and the problem of overproduction of corn in the country.
+   </p></div>
+
+  <h4>Roles & Attributions</h4> <div style="text-align:left"><ul><li><b>Inaara Ali (me):</b> Analyzed market size, projected revenue, and researched consumer behavior and corn overproduction problem; devised project idea <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/presentation/d/1iOuEek2V9ca8l9wTbK-dfOVqLQO_4qIH8L1gtVCRB4E/edit?usp=sharing"><b>See my revenue-analysis slides in particular here</b></a></li>
+  <li>Vedika Jhunjhunwala: Formulated logistics; researched suppliers and manufacturing units </li>
+  <li>Tanvi Talwar: Researched costs, competition, and marketing strategy </li>
+  <li>Richard O: Designed logo and clothing prototypes</li>
+  </ul>
+  </div>
+
+---
