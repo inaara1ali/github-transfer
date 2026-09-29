@@ -120,30 +120,25 @@ export default defineConfig({
         ],
       },
       {
-        format: "md",
-        label: "Pages",
-        name: "pages",
-        path: "",
+        format: "markdown",
+        label: "Website Sections",
+        name: "sections",
+        path: "_content",
         match: {
-          include: "index.html",
+          include: "*",
         },
         fields: [
           {
             type: "string",
             name: "title",
-            label: "Title",
+            label: "Section Title",
             isTitle: true,
             required: true,
           },
           {
-            type: "string",
-            name: "layout",
-            label: "Layout Type",
-          },
-          {
             type: "rich-text",
             name: "body",
-            label: "Page Content",
+            label: "Content Body Text",
             isBody: true,
           },
         ],
